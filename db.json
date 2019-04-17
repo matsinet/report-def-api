@@ -1,0 +1,164 @@
+{
+  "ReportVersion": "2019.2.2",
+  "ReportGuid": "0c82f7f91056c18b664c80d8fe92497a",
+  "ReportName": "Report",
+  "ReportAlias": "Report",
+  "ReportFile": "BlankReport.mrt",
+  "ReportCreated": "/Date(1555511214000-0500)/",
+  "ReportChanged": "/Date(1555511214000-0500)/",
+  "EngineVersion": "EngineV2",
+  "CalculationMode": "Interpretation",
+  "ReportUnit": "Centimeters",
+  "PreviewSettings": 268435455,
+  "Dictionary": {
+    "DataSources": {
+      "0": {
+        "Ident": "StiDataTableSource",
+        "Name": "cities",
+        "Alias": "cities",
+        "Columns": {
+          "0": {
+            "Name": "id",
+            "Index": -1,
+            "NameInSource": "id",
+            "Alias": "id",
+            "Type": "System.Decimal"
+          },
+          "1": {
+            "Name": "name",
+            "Index": -1,
+            "NameInSource": "name",
+            "Alias": "name",
+            "Type": "System.String"
+          }
+        },
+        "NameInSource": "db.cities"
+      },
+      "1": {
+        "Ident": "StiDataTableSource",
+        "Name": "locations",
+        "Alias": "locations",
+        "Columns": {
+          "0": {
+            "Name": "address",
+            "Index": -1,
+            "NameInSource": "address",
+            "Alias": "address",
+            "Type": "System.String"
+          },
+          "1": {
+            "Name": "id",
+            "Index": -1,
+            "NameInSource": "id",
+            "Alias": "id",
+            "Type": "System.Decimal"
+          },
+          "2": {
+            "Name": "name",
+            "Index": -1,
+            "NameInSource": "name",
+            "Alias": "name",
+            "Type": "System.String"
+          },
+          "3": {
+            "Name": "teamId",
+            "Index": -1,
+            "NameInSource": "teamId",
+            "Alias": "teamId",
+            "Type": "System.Decimal"
+          }
+        },
+        "NameInSource": "db.locations"
+      },
+      "2": {
+        "Ident": "StiDataTableSource",
+        "Name": "sports",
+        "Alias": "sports",
+        "Columns": {
+          "0": {
+            "Name": "cityId",
+            "Index": -1,
+            "NameInSource": "cityId",
+            "Alias": "cityId",
+            "Type": "System.Decimal"
+          },
+          "1": {
+            "Name": "id",
+            "Index": -1,
+            "NameInSource": "id",
+            "Alias": "id",
+            "Type": "System.Decimal"
+          },
+          "2": {
+            "Name": "name",
+            "Index": -1,
+            "NameInSource": "name",
+            "Alias": "name",
+            "Type": "System.String"
+          }
+        },
+        "NameInSource": "db.sports"
+      },
+      "3": {
+        "Ident": "StiDataTableSource",
+        "Name": "teams",
+        "Alias": "teams",
+        "Columns": {
+          "0": {
+            "Name": "id",
+            "Index": -1,
+            "NameInSource": "id",
+            "Alias": "id",
+            "Type": "System.Decimal"
+          },
+          "1": {
+            "Name": "name",
+            "Index": -1,
+            "NameInSource": "name",
+            "Alias": "name",
+            "Type": "System.String"
+          },
+          "2": {
+            "Name": "sportId",
+            "Index": -1,
+            "NameInSource": "sportId",
+            "Alias": "sportId",
+            "Type": "System.Decimal"
+          }
+        },
+        "NameInSource": "db.teams"
+      }
+    },
+    "Databases": {
+      "0": {
+        "Ident": "StiJsonDatabase",
+        "Name": "db",
+        "Alias": "db",
+        "PathData": "https://my-json-server.typicode.com/matsinet/sc-capstone-api-example/db"
+      }
+    }
+  },
+  "Pages": {
+    "0": {
+      "Ident": "StiPage",
+      "Name": "Page1",
+      "Guid": "d867575d4e46e3f498f8d2c5223e2aca",
+      "Interaction": {
+        "Ident": "StiInteraction"
+      },
+      "Border": ";;2;;;;;solid:Black",
+      "Brush": "solid:Transparent",
+      "PageWidth": 21,
+      "PageHeight": 29.7,
+      "Watermark": {
+        "TextBrush": "solid:50,0,0,0"
+      },
+      "Margins": {
+        "Left": 1,
+        "Right": 1,
+        "Top": 1,
+        "Bottom": 1
+      }
+    }
+  }
+}
